@@ -1,0 +1,30 @@
+form textarea{
+    resize: none;
+    height: 100px;
+}
+
+form input[ type="radio"]{
+    margin: 15px 0;
+
+}
+
+form input[ type="radio"]:not(:first-child){
+    margin-left: 15px;
+    /*  :not(:first-child) = menos no primero elemento , mas no proximo : colocar margin esquerda menos no primeiro */
+
+}
+
+.status span{
+    padding-left: 4px;
+    font-size: 17px;
+
+}
+
+.status{
+    margin-bottom: 15px;
+}
+
+.radio{
+    padding-top: 19px;
+    
+}
